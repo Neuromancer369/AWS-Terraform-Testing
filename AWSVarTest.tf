@@ -11,4 +11,4 @@ resource "aws_instance" "ec2_module_1" {
      sudo systemctl status apache2
      sudo systemctl start apache2 
      sudo chown -R $USER: $USER /var/www/html 
-     sudo echo "<html><body><h1>Hello this is module-1 at EOF
+     sudo echo "<html><body><h1>Hello this is my test site at EOF
